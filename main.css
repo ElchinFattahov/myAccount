@@ -1,0 +1,165 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.kakos {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.kakos li {
+  margin: 0 15px;
+  position: relative;
+}
+
+.kakos li a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px 10px;
+  color: rgb(38, 38, 228);
+}
+
+.kakos li a:hover {
+  background-color: red;
+  border-radius: 5px;
+  color: #fff;
+  transition: 0.7s;
+}
+
+.about h3 {
+  color: #fff;
+  background-color: red;
+  width: 95%;
+  margin-left: 40px;
+  text-align: center;
+  height: 30px;
+  padding-top: 5px;
+}
+
+.about p {
+  width: 95%;
+  margin-left: 40px;
+}
+
+span {
+  background-color: red;
+  border-radius: 5px;
+  padding: 2px 5px;
+}
+
+.services h3 {
+  color: #fff;
+  background-color: red;
+  width: 95%;
+  margin-left: 40px;
+  text-align: center;
+  height: 30px;
+  padding-top: 5px;
+}
+
+.services table {
+  width: 95%;
+  margin-left: 40px;
+  border: 1px solid gray;
+  border-style: none;
+  border-collapse: collapse;
+}
+
+.services table tr th {
+  padding: 30px 30px;
+}
+
+.blogs h3 {
+  color: #fff;
+  background-color: red;
+  width: 95%;
+  margin-left: 40px;
+  text-align: center;
+  height: 30px;
+  padding-top: 5px;
+}
+
+.blogs table {
+  width: 95%;
+  margin-left: 40px;
+  border: 1px solid gray;
+  border-style: none;
+  border-collapse: collapse;
+}
+
+.blogs table tr th {
+  padding: 30px 30px;
+}
+
+.contact h3 {
+  color: #fff;
+  background-color: red;
+  width: 95%;
+  margin-left: 40px;
+  text-align: center;
+  height: 30px;
+  padding-top: 5px;
+}
+
+.content {
+  background-color: rgb(226, 206, 206);
+  width: 40%;
+  border: 1px solid gray;
+  margin: 0 auto;
+}
+
+textarea {
+  resize: none;
+}
+
+.content form {
+  padding: 10px;
+}
+
+.content input {
+  width: 555px;
+  height: 30px;
+}
+
+button {
+  color: #fff;
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 80px;
+  height: 40px;
+  margin: 15px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  color: red;
+  background-color: #fff;
+}
+
+footer {
+  color: #fff;
+  background-color: rgb(10, 3, 3);
+  width: 95%;
+  height: 60px;
+  text-align: center;
+  border-radius: 6px;
+  margin: 20px 0px 20px 40px;
+  padding: 5px;
+  font-size: 20px;
+}
